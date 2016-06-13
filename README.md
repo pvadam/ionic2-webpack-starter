@@ -2,24 +2,38 @@
 
 > An Ionic 2 starter kit that uses Webpack with HMR, Karma, Protractor, Istanbul, Typescript, Typings, TSLint and Codelyzer.
 
-## Quick Start
+## Prerequisites
 ```
 // Install System Packages
-$ brew install node
-$ brew install imagemagick
+$ brew install node imagemagick homebrew/science/vips
 
 // Install Dependencies
-$ npm install -g typings webpack-dev-server webpack cordova
+$ npm install -g typings webpack-dev-server webpack cordova asar electron-packager-interactive
 
 // Install the project dependencies
 $ npm i
+```
 
-// Start the dev server (HMR enabled)
+## Building HTML5 Web App
+```
+// Start the web app development
 $ npm start
+
+// Generate the app bundles
+$ npm run build:<dev|stg|prd>
 ```
 
-## Different Platform Preparation
+## Building Electron App
 ```
-// Add platforms for Android/iOS
+// Start the electron app development
+$ npm run start:elt
+
+// Generate and package the app bundles as a Electron app
+$ npm run pkg:<darwin|linux|window>
+```
+
+## Building Hybrid Mobile App (Android/iOS)
+```
+// Add Android/iOS platform
 $ cordova platform add <android|ios> --save
 ```
