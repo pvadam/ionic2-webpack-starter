@@ -2,38 +2,31 @@
 logs
 *.log
 
-# Runtime data
-pids
-*.pid
-*.seed
-
 # Coverage directory used by tools like istanbul
 coverage
 
-# Users Environment Variables
-.lock-wscript
-
-# OS generated files #
+# OS generated files
 .DS_Store
 ehthumbs.db
 Icon?
 Thumbs.db
 
-# Node Files #
-/node_modules
+# Node files
+node_modules
 npm-debug.log
 
-# Typing #
-/src/typings/tsd/
-/typings/
-/tsd_typings/
+# Typing
+src/typings/tsd/
+typings/
+tsd_typings/
 
-# Dist #
-/dist
+# Dist.
+dist
 
-# Doc #
-/doc/
-
-# IDE #
-.idea/
+# IDE files
+.idea
 *.swp
+
+# Cordova files
+platforms
+plugins
