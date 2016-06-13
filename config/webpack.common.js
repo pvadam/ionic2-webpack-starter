@@ -40,8 +40,8 @@ module.exports = {
     loaders: [
       {
         test: /\.ts$/,
-        loader: 'awesome-typescript',
-        exclude: [ /\.(spec|e2e)\.ts$/ ]
+        exclude: [ /\.(spec|e2e)\.ts$/ ],
+        loader: 'awesome-typescript'
       },
       {
         test: /\.json$/,

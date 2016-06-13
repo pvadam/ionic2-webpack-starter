@@ -1,9 +1,12 @@
+const pkg = require('../package.json');
+
 module.exports = {
   baseUrl: '/',
-  description: '',
+  description: pkg.description,
   gaSiteID: '',
   host: 'localhost',
-  port: 3000,
+  port: 8080,
+  platform: process.env.PLATFORM ? process.env.PLATFORM : 'web',
   themeColor: '',
-  title: ''
+  title: 'Ionic2 Webpack Starter'
 };
