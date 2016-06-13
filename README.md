@@ -8,7 +8,7 @@
 $ brew install node imagemagick homebrew/science/vips
 
 // Install Dependencies
-$ npm install -g typings webpack-dev-server webpack cordova asar electron-packager-interactive
+$ npm install -g typings webpack-dev-server webpack cordova asar
 
 // Install the project dependencies
 $ npm i
