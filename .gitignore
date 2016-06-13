@@ -20,8 +20,9 @@ src/typings/tsd/
 typings/
 tsd_typings/
 
-# Dist.
+# Build files
 dist
+src/assets/icons
 
 # IDE files
 .idea
