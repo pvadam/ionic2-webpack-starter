@@ -7,6 +7,8 @@
 // Install system packages
 $ brew install node imagemagick homebrew/science/vips
 
+> Note: The version of `node` should be `>= 6.2.0` and `npm` should be `>= 3.8.0`
+
 // Install the node packages globally
 $ npm install -g typings webpack-dev-server webpack cordova asar
 
