@@ -63,7 +63,7 @@
     "copy-webpack-plugin": "3.0.1",
     "cordova-icon": "0.7.0",
     "cordova-splash": "0.7.1",
-    "electron-connect": "0.4.2",
+    "electron-connect": "git+ssh://git@github.com/cayter/electron-connect.git",
     "electron-packager": "7.0.3",
     "electron-prebuilt": "1.2.2",
     "gulp": "3.9.1",
