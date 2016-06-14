@@ -23,6 +23,7 @@ tsd_typings/
 # Build files
 dist
 www
+releases
 src/assets/icons
 
 # IDE files
