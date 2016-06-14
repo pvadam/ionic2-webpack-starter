@@ -21,11 +21,7 @@ module.exports = webpackMerge(commonConfig, {
   plugins: [
     new DefinePlugin({
       'ENV': JSON.stringify(METADATA.ENV),
-      'HMR': METADATA.HMR,
-      'process.env': {
-        'ENV': JSON.stringify(METADATA.ENV),
-        'HMR': METADATA.HMR
-      }
+      'HMR': METADATA.HMR
     })
   ],
   tslint: {

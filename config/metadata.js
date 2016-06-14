@@ -1,4 +1,11 @@
 const pkg = require('../package.json');
+const platforms = [
+  'android',
+  'darwin',
+  'ios',
+  'linux',
+  'window'
+];
 
 module.exports = {
   baseUrl: '/',
@@ -6,7 +13,7 @@ module.exports = {
   gaSiteID: '',
   host: 'localhost',
   port: 8080,
-  platform: process.env.PLATFORM ? process.env.PLATFORM : 'web',
+  platform: platforms.indexOf(process.env.PLATFORM) > -1 ? process.env.PLATFORM : 'web',
   themeColor: '',
   title: 'Ionic2 Webpack Starter'
 };

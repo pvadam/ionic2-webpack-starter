@@ -63,11 +63,7 @@ module.exports = {
     // NOTE: when adding more properties make sure you include them in custom-typings.d.ts
     new DefinePlugin({
       'ENV': process.env.NODE_ENV,
-      'HMR': false,
-      'process.env': {
-        'ENV': process.env.NODE_ENV,
-        'HMR': false
-      }
+      'HMR': false
     })
   ],
   tslint: {
