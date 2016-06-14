@@ -66,7 +66,7 @@ function createWindow() {
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
     mainWindow = null;
-    server.close();
+    if (server && server.listening) server.close();
   });
 
   if (process.env.NODE_ENV) {
