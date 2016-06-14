@@ -4,10 +4,10 @@
 
 ## Prerequisites
 ```
-// Install System Packages
+// Install system packages
 $ brew install node imagemagick homebrew/science/vips
 
-// Install Dependencies
+// Install the node packages globally
 $ npm install -g typings webpack-dev-server webpack cordova asar
 
 // Install the project dependencies
