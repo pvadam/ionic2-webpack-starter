@@ -30,6 +30,9 @@ $ npm run build:<dev|stg|prd>
 // Start the electron app development
 $ npm run start:elt
 
+// Enable Electron Devtools (Run in chrome console)
+$ require(`${process.cwd()}/node_modules/devtron`).uninstall();
+
 // Generate and package the app bundles as a Electron app
 $ npm run pkg:<darwin|linux|window>
 ```
